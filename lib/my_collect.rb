@@ -6,7 +6,7 @@ def my_collect(collection)
   col = []
   while i < collection.length do
     col << yield collection[i]
-    i++
+    i+=1
   end
   return collection
 end
