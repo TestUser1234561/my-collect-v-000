@@ -8,5 +8,5 @@ def my_collect(collection)
     col << yield(collection[i])
     i+=1
   end
-  return collection
+  return col
 end
